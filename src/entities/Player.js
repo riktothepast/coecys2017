@@ -24,16 +24,7 @@ class Player extends Phaser.Sprite {
   }
 
   update () {
-    if (this.body.blocked.down) {
-      this.body.velocity.y = 0;
-      this.canJump = true;
-      this.animations.play('walk', 10, true);
-    }
-    if ((this.game.input.activePointer.isDown || this.cursors.up.isDown) && this.canJump) {
-      this.body.velocity.y = jumpHeight;
-      this.canJump = false;
-      this.animations.play('jump', 10, false);
-    }
+   
   }
 }
 

@@ -18,11 +18,7 @@ class Parallaxer extends Phaser.TileSprite {
   }
 
   update () {
-    if (!this.speed) {
-      return;
-    }
-    this.tilePosition.x += this.speed.x;
-    this.tilePosition.y += this.speed.y;
+
   }
 
   setSpeed (hSpeed, vSpeed) {

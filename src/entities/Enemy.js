@@ -11,7 +11,7 @@ class Enemy extends Sprite {
   }
 
   update () {
-    this.position.x -= 2;
+
   }
 }
 
