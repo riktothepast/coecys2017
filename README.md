@@ -2,14 +2,14 @@
 
 [![N|Phaser](https://phaser.io/images/img.png)](https://phaser.io/)
 
-Phaser es una liberia para desarrollar videojuegos usando JavaScript
+Phaser es una libreria para desarrollar videojuegos usando JavaScript
 
 # Creando un infinite runner!
 
 ![N](https://media.giphy.com/media/l378v0AgCgiQMHf0s/giphy.gif)
 
 Pre requisitos:
-  - Instala `node.js`(https://nodejs.org/en/)
+  - Instalar `node.js`(https://nodejs.org/en/)
   - Clonar este repositorio y todos sus branches `git checkout` [master y template]
   - Instalar las dependencias, `npm install`
 
